@@ -19,7 +19,7 @@ public class Person {
     @EmbeddedId
     private PersonKey personKey;
     @Column(name = "phone_number")
-    private String phone_number;
+    private String phoneNumber;
     @Column(name = "city_of_living")
-    private String city_of_living;
+    private String cityOfLiving;
 }
